@@ -1,0 +1,87 @@
+###
+# Custom Messaging File.
+#
+# Messaging can include any of the formatting codes found on http://minecraft.gamepedia.com/Formatting_codes and must use the '&' character to denote them.
+# Make sure to include the single quotes around the custom messages.
+# With new updates, this is subject to change and previous versions might not display information properly. Changes will be noted in the changelog.
+###
+
+prefix: '&7[&aPlugManX&7] '
+check:
+  header: '&9检查插件版本中...'
+  not-found: '&9插件未安装 - 最新版本 "{0}".'
+  not-found-spigot: '&c插件数据不存在 请检查这个插件是否为SpigotMC上的资源?'
+  out-of-date: '&c当前版本 (&4{0}&c) 与 最新版本 (&2{1}&c) 不匹配.'
+  out-of-date-player: '&c可能已经过期 (已安装 -> 最新): {0}'
+  up-to-date: '&9此插件似乎正在使用最新版本 "{0}".'
+  up-to-date-player: '&a此插件似乎是最新版本 (已安装): {0}'
+  file-done: '&9文件储存完成: {0}'
+  unknown: '&c版本信息未知.'
+  unknown-player: '&c未知 (已安装): {0}'
+  not-available: '&c版本信息 {0} 不可用.'
+disable:
+  all: '&9全部插件已被禁用 (不包括PlugManX).'
+  already-disabled: '&c{0} 已经被禁用了.'
+  disabled: '&9{0} 成功禁用.'
+dump:
+  dumped: '&9插件信息成功生成至 {0}.'
+  error: '&4无法生成插件信息.'
+enable:
+  all: '&9全部插件成功启用.'
+  already-enabled: '&c{0} 已经启用了.'
+  enabled: '&9{0} 成功启用.'
+error:
+  ignored: '&cPlugManX配置文件中已设置忽略此插件.'
+  invalid-plugin: '&c这不是一个可用的插件.'
+  no-permission: '&c你没有权限.'
+  specify-plugin: '&c请指定一个插件.'
+  specify-command: '&c请指定一个命令.'
+  usage:
+    command: '&7- &9命令: &7{0}'
+    description: '&7- &9介绍: &7{0}'
+    usage: '&7- &9用法: &7{0}'
+help:
+  header: '&7--------------------- [&a PlugManX &7] ---------------------'
+  help: '&7- &a/plugman help &f- &7展示此帮助.'
+  list: '&7- &a/plugman list [-v] &f- &7列出所有插件名称 (添加 "-v" 可列出插件版本).'
+  dump: '&7- &a/plugman dump &f- &7保存所有插件名称和版本至一个文件中.'
+  info: '&7- &a/plugman info <plugin> &f- &7获取插件信息.'
+  usage: '&7- &a/plugman usage <plugin> &f- &7列出指定插件注册的命令.'
+  lookup: '&7- &a/plugman lookup <command> &f- &7查询注册此命令的插件.'
+  enable: '&7- &a/plugman enable <plugin|all> &f- &7启用指定插件.'
+  disable: '&7- &a/plugman disable <plugin|all> &f- &7禁用指定插件.'
+  restart: '&7- &a/plugman restart <plugin|all> &f- &7重启指定插件.'
+  load: '&7- &a/plugman load <plugin> &f- &7加载指定插件.'
+  reload: '&7- &a/plugman reload <plugin|all> &f- &7重载指定插件.'
+  unload: '&7- &a/plugman unload <plugin> &f- &7卸载指定插件.'
+  check: '&7- &a/plugman check <plugin|all> [-f] &f- &7检查插件是否处于最新版本 (添加 "-f" 可将数据储存至文件).'
+info:
+  header: '插件信息: {0}'
+  version: '&7- 版本: &a{0}'
+  authors: '&7- 作者: &a{0}'
+  status: '&7- 状态: {0}'
+  depends: '&7- 前置: {0}'
+  softdepends: '&7- 软前置: &a{0}'
+list:
+  list: '&9插件列表 ({0}): {1}'
+load:
+  already-loaded: '&c{0} 已经被加载了.'
+  cannot-find: '&c无法找到此文件 请检查该文件是否存在.'
+  invalid-description: '&c该插件的信息无效.'
+  invalid-plugin: '&c这不是一个插件.'
+  loaded: '&9{0} 成功加载并启用.'
+  plugin-dir: '&c插件目录不存在.'
+lookup:
+  found: '&9/{0} 由 {1} 插件注册.'
+  not-found: '&c命令 "/{0}" 并没有任何插件在plugin.yml中注册'
+reload:
+  all: '&9所有插件成功重载.'
+  reloaded: '&9{0} 成功重载.'
+restart:
+  all: '&9全部插件已重启.'
+  restarted: '&9{0} 成功重启.'
+unload:
+  failed: '&c无法卸载 {0}.'
+  unloaded: '&9{0} 成功卸载.'
+usage:
+  usage: '&9命令: &7{0}'

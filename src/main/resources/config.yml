@@ -1,0 +1,25 @@
+###
+# A list of plugins that we should ignore when doing enable, disable, restart, load, reload, and unload.
+#
+# This takes the form of a comma separated list enclosed within the brackets.
+###
+#过滤插件
+ignored-plugins: [PlugMan]
+#自动加载
+auto-load:
+  #是否启用
+  enabled: false
+  #检查时间间隔
+  check-every-seconds: 10
+#自动卸载
+auto-unload:
+  #是否启用
+  enabled: false
+  #检查时间间隔
+  check-every-seconds: 10
+#自动重载
+auto-reload:
+  #是否启用
+  enabled: false
+  #检查时间间隔
+  check-every-seconds: 10
